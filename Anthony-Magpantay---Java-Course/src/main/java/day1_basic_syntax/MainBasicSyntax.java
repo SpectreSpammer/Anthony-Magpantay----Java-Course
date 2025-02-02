@@ -1,6 +1,6 @@
-package com.testing;
+package day1_basic_syntax;
 
-public class Main {
+public class MainBasicSyntax {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
