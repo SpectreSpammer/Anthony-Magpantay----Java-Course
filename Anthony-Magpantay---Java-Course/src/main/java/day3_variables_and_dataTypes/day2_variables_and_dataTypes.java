@@ -1,4 +1,4 @@
-package day2_variables_and_dataTypes;
+package day3_variables_and_dataTypes;
 
 public class day2_variables_and_dataTypes {
     public static void main(String[] args) {

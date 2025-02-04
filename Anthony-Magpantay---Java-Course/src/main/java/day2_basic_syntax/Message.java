@@ -1,4 +1,4 @@
-package day1_basic_syntax;
+package day2_basic_syntax;
 
 public class Message {
 
