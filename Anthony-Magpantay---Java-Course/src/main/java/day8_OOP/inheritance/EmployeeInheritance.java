@@ -1,0 +1,25 @@
+package day8_OOP.inheritance;
+
+public class EmployeeInheritance {
+    private String name;
+    private int id;
+    private double salary;
+
+    public EmployeeInheritance(String name, int id, double salary) {
+        this.name = name;
+        this.id = id;
+        this.salary = salary;
+    }
+
+    public double calculateSalary(){
+        return salary;
+    }
+
+    public void displayEmployeeInfo(){
+        System.out.println("Id: " + id);
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
+        System.out.println("Total Salary: " + calculateSalary());
+
+    }
+}
