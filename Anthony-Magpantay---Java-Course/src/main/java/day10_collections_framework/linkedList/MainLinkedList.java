@@ -7,30 +7,30 @@ public class MainLinkedList {
 
     public static void main(String[] args) {
 
-        EmployeeServiceArrayList employees = new EmployeeServiceArrayList();
-        employees.addEmployee(new EmployeeArrayList(1,"anthony","IT"));
-        employees.addEmployee(new EmployeeArrayList(1,"anthony","IT"));
-        employees.addEmployee(new EmployeeArrayList(5,"robin","HR"));
-        employees.addEmployee(new EmployeeArrayList(3,"nan","Security"));
-        employees.addEmployee(new EmployeeArrayList(4,"nami","Sales"));
-        employees.addEmployee(new EmployeeArrayList(6,"sanji","Kitchen"));
+        EmployeeServiceLinkedList employees = new EmployeeServiceLinkedList();
+        employees.addEmployee(new EmployeeLinkedList(1,"anthony","IT"));
+        employees.addEmployee(new EmployeeLinkedList(1,"anthony","IT"));
+        employees.addEmployee(new EmployeeLinkedList(5,"robin","HR"));
+        employees.addEmployee(new EmployeeLinkedList(3,"nan","Security"));
+        employees.addEmployee(new EmployeeLinkedList(4,"nami","Sales"));
+        employees.addEmployee(new EmployeeLinkedList(6,"sanji","Kitchen"));
 
         System.out.println("-----After adding of employees-----");
         employees.printALlEmployees();
         System.out.println();
-        employees.addEmployeeByFirstIndex(new EmployeeArrayList(7,"luffy","Backend"));
+        employees.addEmployeeByFirstIndex(new EmployeeLinkedList(7,"luffy","Backend"));
         System.out.println("-----After adding first employee in First Index-----");
         employees.printALlEmployees();
         System.out.println();
-        employees.addEmployeeByLastIndex(new EmployeeArrayList(8,"zoro","Frontend"));
+        employees.addEmployeeByLastIndex(new EmployeeLinkedList(8,"zoro","Frontend"));
         System.out.println("-----After adding first employee in Last Index-----");
         employees.printALlEmployees();
         System.out.println();
-        employees.addEmployeeByIndex(4,new EmployeeArrayList(9,"brook","Music"));
+        employees.addEmployeeByIndex(4,new EmployeeLinkedList(9,"brook","Music"));
         System.out.println("-----After adding employee in middle Index-----");
         employees.printALlEmployees();
         System.out.println();
-        employees.updateEmployeeByIndex(2,new EmployeeArrayList(10,"anthony","Devops"));
+        employees.updateEmployeeByIndex(2,new EmployeeLinkedList(10,"anthony","Devops"));
         System.out.println("-----Updating Employee-----");
         employees.printALlEmployees();
         System.out.println();

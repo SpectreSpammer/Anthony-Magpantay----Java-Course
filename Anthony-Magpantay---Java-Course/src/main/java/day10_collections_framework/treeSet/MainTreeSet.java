@@ -47,5 +47,15 @@ public class MainTreeSet {
         employeeByDept.addEmployee(new EmployeeTreeSet(2,"sanji","Kitchen"));
         employeeByDept.addEmployee(new EmployeeTreeSet(2,"brook","Artist"));
         employeeByDept.printALlEmployees();
+        System.out.println();
+
+        System.out.println("First Employee: " + employees.getFirstEmployee());
+        System.out.println("Last Employee: " + employees.getLastEmployee());
+        System.out.println();
+
+        employees.removeEmployeeByIndex(new EmployeeTreeSet(1,"anthony","IT"));
+        employeeByDept.printALlEmployees();
+
+
     }
 }
